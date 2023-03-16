@@ -1,6 +1,7 @@
 # C++ Bahasa Indonesia
 C++ Dengan bahasa Indonesia
-if = jika
-else = lainnya
-int = bulat
-while = ketika
+##Contoh
+_if = jika_
+_else = lainnya_
+_int = bulat_
+_while = ketika_
