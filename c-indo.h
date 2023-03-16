@@ -1,4 +1,4 @@
-// C-Indo.h by mee-i
+// c-indo.h by mee-i
 
 #pragma once
 #include <iostream>
@@ -25,6 +25,7 @@
 #define pribadi private
 #define tali std::string
 #define rangkaian std::string
+#define BATAL NULL
 
 #define kurang < // kurang dari
 #define kurangsama <= // kurang dari atau sama dari
@@ -37,13 +38,12 @@
 #define ini {
 #define lalu {
 #define akhir }
-
 #define masuk <<
 #define keluar >>
+
 #define baris std::cout<<"\n"
 #define cetak std::cout<<
 #define cetakf printf
-#define kembali return
 #define untuk for
 #define jika if
 #define lain else
@@ -51,7 +51,6 @@
 #define ganti switch
 #define hal case
 #define hapus std::erase
-#define BATAL NULL
 #define ketika while
 #define istirahat break
 #define akar sqrt
@@ -62,6 +61,7 @@
 #define ke_rangkaian std::to_string
 #define pengecualian std::exception
 #define apa what()
+#define kembali return
 
 void tunda(int milidetik) { // buat fungsi tunda untuk memnunda program
 	std::this_thread::sleep_for(std::chrono::milliseconds(milidetik));
