@@ -1,2 +1,2 @@
-# c-indo
+# C++
 C++ With Indonesia Language
