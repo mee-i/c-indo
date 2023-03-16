@@ -1,2 +1,1 @@
-# C++
-C++ With Indonesia Language
+# C++ Dengan Bahasa Indonesia
