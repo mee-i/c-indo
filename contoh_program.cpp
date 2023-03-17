@@ -1,6 +1,6 @@
 #include <iostream>
-#include "c-indo.h"
 #include <thread>
+include "c-indo.h"
 
 bulat kali(bulat nilai_a, bulat nilai_b) maka
     kembali nilai_a * nilai_b; // beri kembali nilai a dikali oleh nilai b
@@ -83,7 +83,9 @@ int main() {
 
     //////////////////////////////////// Akar ///////////////////////////////////////
     bulat d = 25;
-    cetak "akar dari 25 adalah " masuk akar(d);
+    cetak "akar dari d adalah " masuk akar(d);
+    desimal x = 7;
+    cetak "akar dari x adalah " masuk akar(x);
     /////////////////////////////////////////////////////////////////////////////////
 
     baris;
