@@ -13,7 +13,7 @@
 #define apakah bool
 #define karakter char
 #define kar char
-#define apung float
+#define pecahan float
 #define dobel double
 #define desimal double
 #define konstan const
@@ -63,6 +63,66 @@
 #define pengecualian std::exception
 #define apa what()
 #define kembali return
+
+// fungsi penjumlahan
+int tambah(int a, int b) {
+    return a + b;
+}
+
+// fungsi pengurangan
+int kurang(int a, int b) {
+    return a - b;
+}
+
+// fungsi perkalian
+int kali(int a, int b) {
+    return a * b;
+}
+
+// fungsi pembagian
+int bagi(int a, int b) {
+    return a / b;
+}
+
+// fungsi menghitung faktorial
+int faktorial(int n) {
+    int hasil = 1;
+    for (int i = 1; i <= n; i++) {
+        hasil *= i;
+    }
+    return hasil;
+}
+
+// fungsi menghitung pangkat
+int pangkat(int a, int b) {
+    return pow(a, b);
+}
+
+// fungsi menghitung logaritma natural
+Pecahan logaritma(Pecahan x) {
+    return log(x);
+}
+
+// fungsi menghitung sinus
+Pecahan sinus(Pecahan sudut) {
+    return sin(sudut);
+}
+
+// fungsi menghitung kosinus
+Pecahan kosinus(Pecahan sudut) {
+    return cos(sudut);
+}
+
+// fungsi menghitung tangen
+Pecahan tangen(Pecahan sudut) {
+    return tan(sudut);
+}
+
+// fungsi menghitung eksponensial
+Pecahan eksponensial(Pecahan x) {
+    return exp(x);
+}
+
 
 void tunda(int milidetik) { // buat fungsi tunda untuk memnunda program
 	std::this_thread::sleep_for(std::chrono::milliseconds(milidetik));
