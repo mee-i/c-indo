@@ -15,6 +15,7 @@
 #define kar char
 #define apung float
 #define dobel double
+#define desimal double
 #define konstan const
 #define benar true
 #define salah false
