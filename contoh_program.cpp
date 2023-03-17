@@ -1,6 +1,6 @@
 #include <iostream>
 #include <thread>
-include "c-indo.h"
+#include "c-indo.h"
 
 bulat kali(bulat nilai_a, bulat nilai_b) maka
     kembali nilai_a * nilai_b; // beri kembali nilai a dikali oleh nilai b
